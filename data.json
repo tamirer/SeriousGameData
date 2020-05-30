@@ -34,8 +34,8 @@
     40
   ],
   "textBetweenPhases": [
-    "This phase requires viewing the accessports and the placement of guiding tooland the endoprothesis",
-    "This phase requires angiography for thedeployment of the endoprothesis",
+    "This phase requires viewing the accessports and the placement of guiding tool and the endoprothesis",
+    "This phase requires angiography for the deployment of the endoprothesis",
     "This phase requires the deployment of the contralateral limb",
     "This phase requires final angiographypost deployment"
   ],
@@ -45,10 +45,12 @@
     "Cannulation contralateral limb",
     "Control angiography"
   ],
+  "patientHistory": "A 60-year-old Male\nWeight: 75.2 kg\nHeight: 176 cm\nVital Signs: BP 189/90, HR 73 bpm, O2 Sat 99%\nWas referred to a pre-planned endovascular aneurysm repair(EVAR).",
+  "preproceduralPlanning": "Main Body – LAO 30\nContralateral – LAO 30, CRAN 15",
   "possibleStaff": [
     {
       "Item1": 0,
-      "Item2": "Scrub Nurse"
+      "Item2": "Nurse"
     },
     {
       "Item1": 1,
@@ -231,23 +233,23 @@
       "Key": {
         "x": -0.0765,
         "y": 1.8,
-        "z": 1.219
+        "z": 1.019
       },
       "Value": 0
     },
     {
       "Key": {
-        "x": -0.22,
+        "x": -0.969,
         "y": 1.8,
-        "z": 0.112
+        "z": -0.042
       },
       "Value": 1
     },
     {
       "Key": {
-        "x": -1.200,
+        "x": -1.06,
         "y": 1.8,
-        "z": -0.042
+        "z": -1.076
       },
       "Value": 2
     }
