@@ -1,0 +1,272 @@
+{
+  "SIDLoc": {
+    "High": 0,
+    "Low": 25
+  },
+  "teamCommunicationPrompts": [
+    "Is everyone protected?",
+    "Please step back, we’re making an angiography",
+    "Please shut down C-arm"
+  ],
+  "possibleRAO": [
+    -30,
+    0,
+    30
+  ],
+  "possibleCaud": [
+    -15,
+    0,
+    15
+  ],
+  "possibleSID": [
+    0,
+    25
+  ],
+  "possibleColli": [
+    0,
+    20,
+    50,
+    80
+  ],
+  "possibleZoom": [
+    0,
+    20,
+    40
+  ],
+  "textBetweenPhases": [
+    "This phase requires viewing the accessports and the placement of guiding tool and the endoprothesis",
+    "This phase requires angiography for the deployment of the endoprothesis",
+    "This phase requires the deployment of the contralateral limb",
+    "This phase requires final angiographypost deployment"
+  ],
+  "titleOfPhases": [
+    "Access and navigation",
+    "Initial angiography",
+    "Cannulation contralateral limb",
+    "Control angiography"
+  ],
+  "patientHistory": "A 79-year-old Male\nWeight: 75.2 kg\nHeight: 176 cm\nVital Signs: BP 189/90, HR 73 bpm, O2 Sat 99%\nRisk Factors: Smoking, history of acute myocardial infarction.\nWas referred to a pre-planned endovascular aneurysm repair (EVAR). ",
+  "preproceduralPlanning": "Proximal landing zone - LAO 30\nRight distal landing zone - main body - LAO 30\nLeft distal landing zone – contralateral limb - LAO 30, CRAN 15",
+  "possibleStaff": [
+    {
+      "Item1": 0,
+      "Item2": "HELP ME"
+    },
+    {
+      "Item1": 1,
+      "Item2": "Technician"
+    },
+    {
+      "Item1": 2,
+      "Item2": "Surgeon"
+    }
+  ],
+  "correctGear": [
+    15,
+    0,
+    1,
+    2,
+    3
+  ],
+  "correctAvatarPlacement": 1,
+  "correctTableShieldPlacement": 1,
+  "correctCeilingShieldPlacement": 1,
+  "correctPhaseInfo": [
+    {
+      "shouldDoRoadmap": false,
+      "correctPrompt": [
+        "Is everyone protected?"
+      ],
+      "correctRAO": 69,
+      "correctCaud": 0,
+      "correctZoom": 0,
+      "correctCollimation": 20,
+      "correctQuality": 1,
+      "correctSID": 1,
+      "correctBed": 100
+    },
+    {
+      "shouldDoRoadmap": true,
+      "correctPrompt": [
+        "Please step back, we’re making an angiography"
+      ],
+      "correctRAO": -30,
+      "correctCaud": 0,
+      "correctZoom": 0,
+      "correctCollimation": 20,
+      "correctQuality": 1,
+      "correctSID": 1,
+      "correctBed": 100
+    },
+    {
+      "shouldDoRoadmap": false,
+      "correctPrompt": null,
+      "correctRAO": 0,
+      "correctCaud": 0,
+      "correctZoom": 20,
+      "correctCollimation": 50,
+      "correctQuality": 1,
+      "correctSID": 1,
+      "correctBed": 100
+    },
+    {
+      "shouldDoRoadmap": true,
+      "correctPrompt": [
+        "Please step back, we’re making an angiography",
+        "Please shut down C-arm"
+      ],
+      "correctRAO": -30,
+      "correctCaud": -15,
+      "correctZoom": 0,
+      "correctCollimation": 0,
+      "correctQuality": 1,
+      "correctSID": 1,
+      "correctBed": 0
+    }
+  ],
+  "NurseLoc": [
+    {
+      "Key": {
+        "x": -0.988,
+        "y": 0.01,
+        "z": 0.635
+      },
+      "Value": 0
+    },
+    {
+      "Key": {
+        "x": -0.203,
+        "y": 0.01,
+        "z": 1.471
+      },
+      "Value": 1
+    },
+    {
+      "Key": {
+        "x": -1.044,
+        "y": 0.01,
+        "z": -2.66
+      },
+      "Value": 2
+    }
+  ],
+  "TechnicianLoc": [
+    {
+      "Key": {
+        "x": -0.211,
+        "y": 0.01,
+        "z": -2.491
+      },
+      "Value": 0
+    },
+    {
+      "Key": {
+        "x": 1.082,
+        "y": 0.01,
+        "z": 1.569
+      },
+      "Value": 1
+    },
+    {
+      "Key": {
+        "x": -0.203,
+        "y": 0.01,
+        "z": 1.471
+      },
+      "Value": 2
+    }
+  ],
+  "SurgeonLoc": [
+    {
+      "Key": {
+        "x": -1.044,
+        "y": 0.01,
+        "z": -0.056
+      },
+      "Value": 0
+    },
+    {
+      "Key": {
+        "x": -0.203,
+        "y": 0.01,
+        "z": 1.471
+      },
+      "Value": 1
+    },
+    {
+      "Key": {
+        "x": -1.044,
+        "y": 0.01,
+        "z": -2.66
+      },
+      "Value": 2
+    }
+  ],
+  "TableShieldLoc": [
+    {
+      "Key": {
+        "x": -0.8,
+        "y": 0.051,
+        "z": 0.97
+      },
+      "Value": 0
+    },
+    {
+      "Key": {
+        "x": -0.8,
+        "y": 0.051,
+        "z": -0.08
+      },
+      "Value": 1
+    },
+    {
+      "Key": {
+        "x": -0.8,
+        "y": 0.051,
+        "z": -1.15
+      },
+      "Value": 2
+    }
+  ],
+  "CeilingShieldLoc": [
+    {
+      "Key": {
+        "x": -0.366,
+        "y": 1.5513,
+        "z": 1.2
+      },
+      "Value": 0
+    },
+    {
+      "Key": {
+        "x": -0.366,
+        "y": 1.5513,
+        "z": 0.0163
+      },
+      "Value": 1
+    },
+    {
+      "Key": {
+        "x": -0.366,
+        "y": 2.1,
+        "z": 0.0163
+      },
+      "Value": 2
+    }
+  ],
+  "DefaultNurseLocation": {
+    "x": -0.988,
+    "y": 0.01,
+    "z": 0.635
+  },
+  "DefaultTechnicianLocation": {
+    "x": 1.082,
+    "y": 0.01,
+    "z": 1.569
+  },
+  "DefaultSurgeonLocation": {
+    "x": -1.044,
+    "y": 0.01,
+    "z": -0.056
+  }
+}
